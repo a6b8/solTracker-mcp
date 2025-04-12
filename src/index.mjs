@@ -11,7 +11,6 @@ const server = new McpServer( {
 
 createSolTrackerTools( server )
 
-
 async function startServer() {
   const transport = new StdioServerTransport()
   try {
