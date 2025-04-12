@@ -3,8 +3,6 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { createSolTrackerTools } from './task/solTracker.mjs'
 
 
-
-
 const server = new McpServer( {
   name: 'Crypto SolTracker MCP',
   description: 'A collection of tools to get data about solana crypto tokens and pump.fun.',
@@ -12,7 +10,6 @@ const server = new McpServer( {
 } )
 
 createSolTrackerTools( server )
-
 
 
 async function startServer() {
