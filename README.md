@@ -1,5 +1,6 @@
 # SolTracker MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@a6b8/solTracker-mcp)](https://smithery.ai/server/@a6b8/solTracker-mcp)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 A Model Context Protocol (MCP) server for [Solana Tracker](https://docs.solanatracker.io), providing unified access to real-time and historical token, wallet, and trading data from the Solana ecosystem.
@@ -16,6 +17,15 @@ A Model Context Protocol (MCP) server for [Solana Tracker](https://docs.solanatr
 
 ### Installation
 
+### Installing via Smithery
+
+To install SolTracker Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@a6b8/solTracker-mcp):
+
+```bash
+npx -y @smithery/cli install @a6b8/solTracker-mcp --client claude
+```
+
+### Manual Installation
 ```bash
 # Install dependencies
 npm install
